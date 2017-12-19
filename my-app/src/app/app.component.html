@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Filmoteca</h1>
+<filmes></filmes>
+<br>
+<h1>Angular 2</h1>
+<!-- Interpolção -->
+<h2>Exemplo de interpolação</h2>
+<p>{{a + " + " + b}} = {{soma()}} </p>
+<!-- Amarração -->
+<h2>Exemplo de Amarração</h2>
+<div [style.width]="largura"
+     [style.height]="altura"
+     [style.backgroundColor]="cor"></div>
+<span>Nome: </span><input type="text" [disabled]="desabilitado" [class.erro]="deuErro"/>
+<!-- Eventos -->
+<h2>Eventos</h2>
+<h3>Click</h3>
+<button (click)="click('botao incrementar')">incrementar</button>
+<button (click)="zerar()">Zerar</button>
+<p [class.erro-label]="estouro">{{n}} cliques</p>
+<h3>Mouseover e Mouseout</h3>
+<div id="box"
+  (mouseover)="ativa()"
+  (mouseout)="desativa()"
+  [class.sobre]="ativado"></div>
+

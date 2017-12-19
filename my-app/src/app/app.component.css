@@ -1,0 +1,14 @@
+.erro{
+    border: red 1px solid;
+}
+.erro-label{
+    color: red;
+}
+#box {
+    width: 250px;
+    height: 250px;
+    border: thin solid black;
+}
+.sobre {
+    background-color: crimson;
+}
